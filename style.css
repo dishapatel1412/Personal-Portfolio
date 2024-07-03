@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.navbar-container .navbar-brand {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+.navbar-container .navbar {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+
+.navbar-container .navbar li {
+    margin-left: 20px;
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+}
+
+.navbar-container .navbar li a {
+    text-decoration: none;
+}
+
+.navbar-container .nav-link,
+.navbar-container .navbar-brand {
+    color: black;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.home-section .container-fluid {
+    background-image: url("images/home-image2.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: lightgrey;
+    height: 800px;
+    margin: 20px 0;
+}
+
+.about-section .container-fluid {
+    font-size: 1.5rem;
+    width: auto;
+    margin: 20px 30px;
+}
+
+.about-section img {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.about-section p {
+    margin: 50px;
+}
+
+.skills-section .container-fluid {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+}
+
+.skills-section h2 {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.skill-class {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #BBE9FF;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.education-section .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px 30px;
+}
+
+.education-section h2 {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.education-class {
+    flex-direction: row;
+    background: #ffffff;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 2px 4px darkgrey;
+    height: 200px;
+    width: 200px;
+}
+
+.education-class h3 {
+    color: #2c3e50;
+    padding-bottom: 10px;
+}
+
+.education-class .university {
+    font-weight: bold;
+    color: #8e44ad;
+    padding-bottom: 10px;
+}
+
+.education-class .school {
+    font-weight: bold;
+    color: #8e44ad;
+    padding-bottom: 10px;
+}
+
+.education-class .date {
+    color: #3498db;
+}
+
+.project-section .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px 30px;
+}
+
+.project-section h2 {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.project-section .container-fluid .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-section .container-fluid .card img {
+    height: 300px;
+    width: 300px;
+}
+
+.project-section .container-fluid .card h3 {
+    padding: 5px;
+}
+
+.project-section .container-fluid .card:hover {
+    height: 450px;
+}
+
+.project-section .container-fluid .card {
+    top: 20px;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-right: 20px;
+}
+
+.project-section a {
+    color: black;
+}
+
+/* .contact-section .container-fluid form {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact-section .container-fluid form label,
+.contact-section .container-fluid form input {
+    display: inline-block;
+    margin: 5px;
+}
+
+.contact-section .container-fluid form .control {
+    margin-left: 10px;
+} */
+
+.contact-section .container-fluid {
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.footer-section .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section .name,
+.footer-section .link a {
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.footer-section .link a {
+    text-decoration: none;
+    margin-right: 10px;
+}
